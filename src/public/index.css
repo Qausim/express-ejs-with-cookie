@@ -1,0 +1,36 @@
+.text--align-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+form > div {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+label,
+input {
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  margin-top: 8px;
+  background-color: teal;
+  border: none;
+  padding: 8px;
+  color: #fff;
+}
+
+.error {
+  color: red;
+}
